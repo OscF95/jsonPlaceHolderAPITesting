@@ -1,0 +1,17 @@
+{
+  "name": "axaAPITest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.1.0",
+    "chai": "*",
+    "supertest": "^6.1.3"
+  }
+}
