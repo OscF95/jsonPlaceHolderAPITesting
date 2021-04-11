@@ -85,7 +85,6 @@ Given('{string} get comments endpoint',
 function(endPointName){
   this.endPoint = endPointName.replace("{createdPost}", createdPostId)
   .replace("{createdCommentid}", createdCommentId);
-  console.log(this.endPoint);
 });
 
 When('I search for post comments', 
